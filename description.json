@@ -1,0 +1,10 @@
+{
+    "Name" : "Fortune Client",
+    "ShortDescription" : "This example uses QTcpSocket, and is intended to be run alongside the Fortune Server example or the Threaded Fortune Server example.",
+    "DownloadLocation" : "https://api.github.com/repos/marcobubke/fortuneclient/zipball/master",
+    "Icon" : "core.png",
+    "Id" : 7,
+    "Tags" : "core tcp client advanced",
+    "ProjectFile" : "fortuneclient.pro",
+    "LongDescription" : "<p>This example uses a simple QDataStream-based data transfer protocol to request a line of text from a fortune server (from the Fortune Server example). The client requests a fortune by simply connecting to the server. The server then responds with a 16-bit (quint16) integer containing the length of the fortune text, followed by a QString.</p><p>QTcpSocket supports two general approaches to network programming:</p><p><ul><li>The asynchronous (non-blocking) approach. Operations are scheduled and performed when control returns to Qt's event loop. When the operation is finished, QTcpSocket emits a signal. For example, QTcpSocket::connectToHost() returns immediately, and when the connection has been established, QTcpSocket emits connected().</li><li>The synchronous (blocking) approach. In non-GUI and multithreaded applications, you can call the waitFor...() functions (e.g., QTcpSocket::waitForConnected()) to suspend the calling thread until the operation has completed, instead of connecting to signals.</li></ul></p><p>In this example, we will demonstrate the asynchronous approach. The Blocking Fortune Client Example illustrates the synchronous approach.</p>"
+}
