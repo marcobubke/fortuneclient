@@ -1,7 +1,7 @@
 {
     "Name" : "Fortune Client",
     "ShortDescription" : "This example uses QTcpSocket, and is intended to be run alongside the Fortune Server example or the Threaded Fortune Server example.",
-    "DownloadLocation" : "https://api.github.com/repos/marcobubke/fortuneclient/zipball/master",
+    "DownloadLocation" : "https://api.github.com/repos/marcobubke/fortuneclient/zipball/01e4463bcfccc658e393e6cc4124422f117d956d",
     "Icon" : "core.png",
     "Id" : 7,
     "Tags" : "core tcp client advanced",
